@@ -14,7 +14,7 @@
         
         changeBtn.onclick = function(){
             console.log("hey button has been clicked")
-            modal.style.display = "block";
+            modal.style.display = "grid";
             modal.style.visibility = "visible";
             modal.style.opacity = "1";
         }
