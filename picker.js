@@ -1,4 +1,4 @@
-var modal = document.getElementById("modal");
+        var modal = document.getElementById("modal");
         var changeBtn = document.getElementById("change");
         var preview = document.getElementById("preview");
         
@@ -14,7 +14,7 @@ var modal = document.getElementById("modal");
         
         changeBtn.onclick = function(){
             console.log("hey button has been clicked")
-            modal.style.display = "block";
+//            modal.style.display = "block";
             modal.style.visibility = "visible";
             modal.style.opacity = "1";
         }
